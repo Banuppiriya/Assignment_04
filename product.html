@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <script src="https://cdn.tailwindcss.com"></script> 
+</head>
+<body class="bg-gray-800">
+
+    <!-- Navbar -->
+    <nav class="fixed top-0 left-0 w-full bg-gray-200 bg-opacity-100 backdrop-blur-sm z-10 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <img src="Assets/Imges/logo.png"Logo" class="h-24 w-24 mr-16">
+            </div>
+
+            <!-- Nav Links -->
+            <div class="flex space-x-8 items-center">
+                <a href="index.html" class="text-black text-lg font-bold hover:text-orange-500">Home</a>
+                <a href="#" class="text-black text-lg font-bold hover:text-orange-500">About Us</a>
+                <a href="#" class="text-black text-lg font-bold hover:text-orange-500">Services</a>
+                <a href="#" class="text-black text-lg font-bold hover:text-orange-500">Portfolio</a>
+                <a href="#" class="text-black text-lg font-bold hover:text-orange-500">Team</a>           
+                <a href="#" class="text-black text-lg font-bold hover:text-orange-500">Contact</a>           
+            </div>
+
+            <!-- Dropdown -->
+            <div class="relative">
+                <input type="checkbox" id="dropdownToggle" class="peer hidden">
+                <label for="dropdownToggle" class="text-black text-lg font-bold cursor-pointer hover:text-orange-500">Dropdown ▼</label>
+                <ul class="absolute right-0 mt-2 bg-gray-800 bg-opacity-90 shadow-lg rounded-lg w-40 hidden peer-checked:block">
+                    <li><a href="./index.html" class="block px-4 py-2 hover:bg-gray-500 text-white">Home</a></li>
+                </ul>
+            </div>
+
+            <!-- Get Started Button -->
+            <button class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 transition duration-300">
+                Get Started
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-5 h-5">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <br>
+    <section class="top-0 left-0 w-full bg-gray-300 bg-opacity-100 backdrop-blur-sm z-10 p-4 mt-32">
+        <div class="container mx-auto flex justify-end items-center space-x-6">
+            <a href="index.html" class="text-black text-lg font-bold hover:text-orange-500">Home/</a>
+            <a href="#" class="text-black text-lg font-bold hover:text-orange-500">Portfolio/</a>
+            <a href="#" class="text-black text-lg font-bold hover:text-orange-500">Portfolio Details</a>
+        </div>
+    </section>
+  <br>  
+
+<!-- Description -->
+<section>
+    <div class="container mx-auto justify-center items-center space-x-18">
+    <h1 class="text-3xl font-semibold text-white">
+        Donuts are a sweet, fried pastry that are often ring-shaped and made from flour, sugar, eggs, and milk.<br>
+        They can be topped with powdered sugar, chocolate, or fruit.
+    </h1>
+<br>
+    <p>
+    
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="pink" class="size-10">
+            <path d="M12.378 1.602a.75.75 0 0 0-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03ZM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 0 0 .372-.648V7.93ZM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 0 0 .372.648l8.628 5.033Z" />
+        </svg>
+        <strong class="text-3xl font-serif text-white">History</strong><br><hr class="w-30 h-12">
+       <h2 class="text-2xl font-semibold text-white">The Dutch immigrants of New York in the 17th and 18th centuries made fried dough balls called olie koeken, <br>which means "oil cakes." 
+        Captain Hanson Gregory, a Dutch sailor, is said to have invented the hole in the doughnut.</h2>
+    </p>
+<br>
+    <p>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="pink" class="size-10">
+            <path d="M12.378 1.602a.75.75 0 0 0-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03ZM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 0 0 .372-.648V7.93ZM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 0 0 .372.648l8.628 5.033Z" />
+        </svg>
+        <strong class="text-3xl font-serif text-white">Types</strong><br><hr class="w-30 h-12">
+        <h2 class="text-2xl font-semibold text-white">The most common types of donuts are ring donuts and filled donuts.<br>
+        Filled donuts can be filled with jelly, cream, custard, or other sweet fillings.<br>
+        Other shapes of donuts include balls, flattened spheres, and twists.</h2>
+    </p>
+
+    <p>
+       
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="pink" class="size-10">
+            <path d="M12.378 1.602a.75.75 0 0 0-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03ZM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 0 0 .372-.648V7.93ZM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 0 0 .372.648l8.628 5.033Z" />
+        </svg>
+        <strong class="text-3xl font-serif text-white">Nutrition</strong><br><hr class="w-30 h-12">
+        <h2 class="text-2xl font-semibold text-white">Donuts are high in fat and calories.<br> 
+        A glazed old-fashioned donut contains about 420 calories, 21 grams of fat, and 57 grams of carbohydrates.</h2>
+    </p>
+
+    <p>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="pink" class="size-10">
+            <path d="M12.378 1.602a.75.75 0 0 0-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03ZM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 0 0 .372-.648V7.93ZM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 0 0 .372.648l8.628 5.033Z" />
+        </svg>
+        <strong class="text-3xl font-serif text-white">Enjoyment</strong><br><hr class="w-30 h-12">
+       <h2 class="text-2xl font-semibold text-white"> Donuts are often eaten with coffee or milk. <br>
+        The sweetness of donuts balances the bitterness of coffee.</h2>
+    </p>
+    </div>
+</section>
+<br>
+<section>
+    <div class="grid grid-rows-2 gap-10 max-w-lg mx-auto">
+        <h1 class="font-semibold text-5xl text-orange-500">TASTY DONUTS</h1><br>
+        <img src="Assets/Imges/do1.jpeg" alt="Glazed Donut" class="w-100 h-100 rounded-lg shadow-md">
+        <img src="Assets/Imges/do2.jpeg" alt="Chocolate Donut" class="w-100 h-100 rounded-lg shadow-md">
+        <img src="Assets/Imges/do3.jpeg" alt="Sprinkled Donut" class="w-100 h-100 rounded-lg shadow-md">
+        <img src="Assets/Imges/do4.jpeg" alt="Jelly-Filled Donut" class="w-100 h-100 rounded-lg shadow-md">
+    </div>
+</section>
+
+   
+
+</body>
+</html>
